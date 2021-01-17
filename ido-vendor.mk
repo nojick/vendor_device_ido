@@ -406,6 +406,7 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
         vendor/xiaomi/ido/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.0-service.ido.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.0-service.ido.rc \
         vendor/xiaomi/ido/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.ido:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.ido \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.composer@2.1-impl.so \
         
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
