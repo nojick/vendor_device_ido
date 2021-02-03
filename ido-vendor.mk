@@ -444,7 +444,6 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/lib64/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/copybit.msm8916.so \
         
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
     TimeService \
