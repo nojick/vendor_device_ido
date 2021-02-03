@@ -442,6 +442,10 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
         vendor/xiaomi/ido/proprietary/vendor/lib64/hw/copybit.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/copybit.msm8916.so \
+        vendor/xiaomi/ido/proprietary/system/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+        vendor/xiaomi/ido/proprietary/system/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
+        vendor/xiaomi/ido/proprietary/system/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+        vendor/xiaomi/ido/proprietary/system/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
         
 PRODUCT_PACKAGES += \
     libloc_ds_api \
