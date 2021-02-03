@@ -455,7 +455,6 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
     TimeService \
