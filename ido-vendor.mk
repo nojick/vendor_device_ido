@@ -444,12 +444,18 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libcurl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_drplugin_server.so \
+        vendor/xiaomi/ido/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
         vendor/xiaomi/ido/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
         vendor/xiaomi/ido/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
         vendor/xiaomi/ido/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+        vendor/xiaomi/ido/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
+        vendor/xiaomi/ido/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
+        vendor/xiaomi/ido/proprietary/vendor/bin/location_hal_test:$(TARGET_COPY_OUT_VENDOR)/bin/location_hal_test \
+        vendor/xiaomi/ido/proprietary/vendor/bin/lowi_test:$(TARGET_COPY_OUT_VENDOR)/bin/lowi_test \
         vendor/xiaomi/ido/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
         vendor/xiaomi/ido/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
         vendor/xiaomi/ido/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
