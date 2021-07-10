@@ -416,8 +416,6 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
         vendor/xiaomi/ido/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-        vendor/xiaomi/ido/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.0-service.ido.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.0-service.ido.rc \
-        vendor/xiaomi/ido/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.ido:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.ido \
         vendor/xiaomi/ido/proprietary/vendor/lib64/android.frameworks.sensorservice@1.0_27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice@1.0_27.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/android.hardware.gnss@1.0-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0-v27.so \
@@ -469,7 +467,7 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/ido/proprietary/system/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
         vendor/xiaomi/ido/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
-    
+
 PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff \
