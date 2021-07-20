@@ -75,8 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv2_adreno.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/ido/proprietary/vendor/lib/libFaceProc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceProc.so \
@@ -319,6 +321,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ido/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv1_CM_adreno.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv2_adreno.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/xiaomi/ido/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
